@@ -38,7 +38,7 @@ let generarMatricula = (argv) => {
         let cursoX;
 
         opcCurso.cursos.forEach((x) => {
-            if (x.id = argv.i) {
+            if (x.id == argv.i) {
                 cursoX = x
             }
         })
@@ -58,8 +58,6 @@ let generarMatricula = (argv) => {
             })
 
         }
-
-
 
     } else {
         console.log('Cuando decidas matricularte no te olvides que en el TDA siempre tenemos una educación Continua!')
